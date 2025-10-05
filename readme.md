@@ -7,7 +7,6 @@ Note: This README was produced with the assistance of an AI to help document and
 ## What this project contains
 
 - `index.html` — the homepage layout (hero, about, skills, projects summary, contact section).
-- `projects.html` — a projects list / project details page.
 - `style.css` — site styles and responsive rules.
 - `script.js` — small interactive behaviors (progress bar animations, form handling, etc.).
 - `assets/` — images and other static assets (e.g., `profile.png`).
