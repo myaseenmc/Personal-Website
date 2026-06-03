@@ -23,7 +23,7 @@
     --shadow-glow: hsla(210, 100%, 75%, 0.1);
     --shadow-medium: hsla(210, 100%, 75%, 0.15);
 
-    --font-family: 'Inter';
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 *,
