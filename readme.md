@@ -47,4 +47,4 @@ This demo is provided for personal and educational use. If you reuse or redistri
 - Design & template: Muhammed Yaseen MC
 - README generated with the assistance of an AI — review before publishing.
 
-Last updated: 2025-10-05
+Last updated: 2026-06-04

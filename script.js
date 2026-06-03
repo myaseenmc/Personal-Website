@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+
     if (header) {
         window.addEventListener('scroll', () => {
             if (window.scrollY > 30) {
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
+        contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
