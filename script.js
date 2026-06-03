@@ -63,13 +63,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const requestResumeBtn = document.getElementById('request-resume-btn');
     if (requestResumeBtn) {
-        requestResumeBtn.addEventListener('click', () => {
-            const subjectField = document.getElementById('subject');
-            const messageField = document.getElementById('message');
-            if (subjectField && messageField) {
-                subjectField.value = 'Resume Request';
-                messageField.value = 'Hi Muhammed, I would like to request a copy of your resume. Please send it to my email.';
+        requestResumeBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const contactSection = document.getElementById('contact');
+            if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
             }
+            setTimeout(function () {
+                var subjectField = document.getElementById('subject');
+                var messageField = document.getElementById('message');
+                if (subjectField && messageField) {
+                    subjectField.value = 'Resume Request';
+                    messageField.value = 'Hi Muhammed, I would like to request a copy of your resume. Please send it to my email.';
+                    subjectField.focus();
+                }
+            }, 600);
         });
     }
 

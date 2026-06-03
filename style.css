@@ -286,17 +286,24 @@ header.scrolled {
     margin: 0 auto;
 }
 
+.about-text {
+    text-align: center;
+    width: 100%;
+}
+
 .about-text h3 {
     font-size: 1.75rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
     color: var(--text-light);
+    text-align: center;
 }
 
 .about-text p {
     margin-bottom: 1.5rem;
     color: var(--text-gray);
     line-height: 1.8;
+    text-align: center;
 }
 
 .about-details {
@@ -307,6 +314,7 @@ header.scrolled {
     padding: 0;
     margin: 1.5rem auto 0 auto;
     text-align: left;
+    max-width: fit-content;
 }
 
 .about-details li {
@@ -338,10 +346,13 @@ header.scrolled {
 .skills-list {
     max-width: 780px;
     width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
 }
 
 .skill-item {
